@@ -18,15 +18,9 @@ namespace AppCalcularTriangulo_XY
 
         public Triangulo(double A, double B, double C)
         {
-            //Triângulo X
             this.a = A;
             this.b = B;
             this.c = C;
-
-            //Triângulo Y
-            //this.yA = YA;
-            //this.yb = YB;
-            //this.yc = YC;
         }
 
         public Triangulo(double AreaX, double AreaY) 
